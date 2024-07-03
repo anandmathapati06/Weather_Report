@@ -22,7 +22,7 @@ async function  apicall(){
         method : "GET",
     headers :
     { 
-        "key" : KEYS.key,
+        "key" : config.key,
         
     },
      
