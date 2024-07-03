@@ -2,7 +2,7 @@ console.log("hello");
 
 let data
 console.log(cityname.value);
-console.log(KEYS.key);
+console.log(config.key);
 
     
 
