@@ -17,7 +17,7 @@ console.log(config.key);
 
 async function  apicall(){
     let place = (cityname.value == "") ? "india": cityname.value
-    const url =`http://api.weatherapi.com/v1/current.json?q=${place}`
+    const url =`https://api.weatherapi.com/v1/current.json?q=${place}`
     let res = await fetch(url,{
         method : "GET",
     headers :
