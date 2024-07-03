@@ -22,13 +22,22 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 30%;
+    width: 50%;
     background: #fff;
-    padding: 30px 10pxpx;
+    padding: 30px 10px;
     background: linear-gradient(to right,rgb(175, 175, 226) ,10%,rgb(127, 127, 194));
     border: 3px solid orange;
     border-radius: 4%;
+
 }
+.search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
 #cityname{
     margin: 15px 0;
     padding: 5px 5px;
@@ -41,26 +50,27 @@ body{
     background: transparent;
     border: 2px solid black;
     border-radius: 15px;
-    padding: 5px 15px;
+    padding: 5px 10px;
+    margin: 0 10px;
 }
 .first,.second,.third{
     display: flex;
     align-items: center;
     justify-content: space-around;
     width: 100%;
-    /* background: green; */
+    
     margin: 5px;
 }
 .country{
     display: flex;
     flex-direction: column;
     padding: 10px 10px ;
-    /* background: red; */
+    
     
 }
 
 .temp{
-    /* background: red; */
+    
     
     padding: 10px 10px;
     display: flex;
@@ -82,11 +92,17 @@ body{
     justify-content: center;
     padding: 10px 0;
     margin: 5px 0;
-    /* width: 100%; */
-    /* background: red; */
+    
 
 }
 .last_updated{
     margin: 10px ;
     
 }
+
+
+@media (max-width: 780px) {
+    .main{
+        width: 80%;
+    }
+  }
